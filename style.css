@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+.adobe-red{
+    color: #ff0000;
+}
+.b-label{
+    text-decoration: bold;
+}
+.sm-font{
+    font-family: 'Space Mono', monospace;
+}
+body {
+    background-color: aliceblue;
+    color:#00112c;
+}
