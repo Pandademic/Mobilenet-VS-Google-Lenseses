@@ -12,3 +12,6 @@ body {
     background-color: aliceblue;
     color:#00112c;
 }
+.float-left{
+    float:left;
+}
