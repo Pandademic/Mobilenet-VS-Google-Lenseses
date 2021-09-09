@@ -4,40 +4,46 @@
         <link rel="stylesheet"href="style.css">
         
         
+        <html>
+            <head>
+              <title>Realtime Drawing</title>
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
             
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    </head>
-    <body>
-        <center>
-            <h1 class="sm-font btn btn-warning">CASE STUDY</h1>
-        
-        <div class="btn btn-info">
-            <h3 align="left"class="b-label">AI 1:</h3>
-            <kdb align="center">MOBILENET</kdb>
-        <br>
-        <br>
-        <h3 align="left"class="b-label">AI 2:</h3>
-        <kdb align="center">GOOGLE LENSE</kdb>
-        <marquee class="sm-font">TESTS</marquee>
-        <br>
-        <br>
-        </div>
-        </center>
-        <div id="test-1">
-            <div class="float-left">
-                <img src="https://url.to.img.com">
-            </div>
-            <div class="float-left">
-                <h1><b>TEST 1: ???</b></h1>
-                <h1 class="float-left">GOOGLE LENSES RESULT:</h1>
-                <h1 class="float-left">???</h1>
-                <h1 class="float-left">MOBILENET RESULT:</h1>
-                <h1 class="float-left">???</h1>                      
-            </div>
-        </div>
-    </body>
-</html>
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+              <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+            
+              <!--<link rel="stylesheet" type="text/css" href="dist/style.css">-->
+            </head>
+            
+            <body>
+            <center>
+              <h3 class="btn btn-info heading">Changing a Square in realtime
+                <br>
+                <span class="note">
+                 <center>
+                     <div class="btn btn-warning">
+                        <p><kdb>AI 1:</kdb>MOBILENET</p>
+                     </div>
+                     <br>
+                     <br>
+                     <div class="btn btn-warning">
+                         <p><kbd>AI 2:</kbd>GOOGLE LENSES</p>
+                     </div>
+                 </center>    
+                </span>
+                <br>
+                <span id="square_sides">
+            
+                </span>
+              </h3>
+            </center>
+            <div class="copyright_footer"><sm>Developed by <a href="https://github.com/Pandademic">Pandademic</a></sm></div>
+            <script src="main.js"></script>
+            </body>
+            </html>
+            
+            
+            
