@@ -1,18 +1,36 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
-.adobe-red{
-    color: #ff0000;
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap");
+.heading {
+  font-size: 23px;
+  width: 100%;
+  margin: 0px;
+  box-shadow: 5px 5px 5px grey;
+  font-family: "Kosugi Maru", sans-serif;
 }
-.b-label{
-    text-decoration: bold;
+
+.note {
+  font-size: 15px;
 }
-.sm-font{
-    font-family: 'Space Mono', monospace;
+
+.copyright_footer {
+  position: fixed;
+  color: white;
+  bottom: 0;
+  width: 100%;
+  background-color: grey;
+  line-height: 3;
+  text-align: center;
 }
-*/
-body {
-    background-color: aliceblue;
-    color:#00112c;
+.copyright_footer a {
+  color: #fdb813;
 }
-.float-left{
-    float:left;
+
+canvas {
+  border: 5px dashed black;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px grey;
+}
+
+sm {
+  font-family: "Space Mono", monospace;
 }
