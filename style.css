@@ -34,3 +34,6 @@ canvas {
 sm {
   font-family: "Space Mono", monospace;
 }
+.float-left{
+  float: left;
+}
