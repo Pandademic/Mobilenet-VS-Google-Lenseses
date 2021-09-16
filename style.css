@@ -37,3 +37,6 @@ sm {
 .float-left{
   float: left;
 }
+div {
+  margin: 10px;
+}
